@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GomezMartinezBlancaJazmin-18090595</title>
+<script type="text/javascript">
+    
+    /* Fecha y Hora By Chivi */ 
+    
+        /* COMIENZA EL SCRIPT DEL RELOJ */ 
+    function actualizaReloj(){  
+    
+        /* CAPTURAMOS LA HORA, LOS MINUTOS Y LOS SEGUNDOS */ 
+    marcacion = new Date()  
+    
+        /* CAPTURAMOS LA HORA */ 
+    Hora = marcacion.getHours()  
+    
+        /* CAPTURAMOS LOS MINUTOS */ 
+    Minutos = marcacion.getMinutes()  
+    
+        /* CAPTURAMOS LOS SEGUNDOS */ 
+    Segundos = marcacion.getSeconds()  
+    
+        /* SI LA HORA, LOS MINUTOS O LOS SEGUNDOS 
+    SIN MENORES O IGUAL A 9, LE AÑADIMOS UN 0 */ 
+    
+    if (Hora<=9) 
+    Hora = "0" + Hora 
+    
+    if (Minutos<=9) 
+    Minutos = "0" + Minutos 
+    
+    if (Segundos<=9) 
+    Segundos = "0" + Segundos 
+        /* TERMINA EL SCRIPT DEL RELOJ */
+    
+        /* COMIENZA EL SCRIPT DE LA FECHA */ 
+    var Dia = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", 
+    
+    "Domingo"); 
+    var Mes = new 
+    
+    Array("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"); 
+    var Hoy = new Date(); 
+    var Anio = Hoy.getFullYear(); 
+    var Fecha = "" + Dia[Hoy.getDay()] + ", " + Hoy.getDate() + " de " + Mes[Hoy.getMonth()] + " de " + Anio + ". Hora:"; 
+        /* TERMINA EL SCRIPT DE LA FECHA */ 
+    
+        /* CREAMOS 4 VARIABLES PARA DARLE FORMATO A NUESTRO SCRIPT */ 
+    var Inicio, Script, Final, Total 
+    
+        /* EN INICIO LE INDICAMOS UN COLOR DE FUENTE Y UN TAMAÑO */ 
+    Inicio = " " 
+    
+        /* EN RELOJ LE INDICAMOS LA HORA, LOS MINUTOS Y LOS SEGUNDOS */ 
+    Script = Fecha + Hora + ":" + Minutos + ":" + Segundos 
+    
+        /* EN FINAL CERRAMOS EL TAG DE LA FUENTE */ 
+    Final = " " 
+    
+        /* EN TOTAL FINALIZAMOS EL RELOJ UNIENDO LAS VARIABLES */ 
+    Total = Inicio + Script + Final 
+    
+        /* CAPTURAMOS UNA CELDA PARA MOSTRAR EL RELOJ */ 
+    document.getElementById('Fecha_Reloj').innerHTML = Total 
+    
+        /* INDICAMOS QUE NOS REFRESQUE EL RELOJ CADA 1 SEGUNDO */ 
+    setTimeout("actualizaReloj()",1000)  
+    } 
+    
+    </script>
+<link rel="preload" href="css/normalize.css" as="style">
+<link href="css/normalize.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/proyectos.css">
+<link rel="preload" href="stylescliente.css" as="style"> <!-- preload sirve para cargar mas rapido una pagina de css --> 
+<link href="css/stylescliente.css" rel="stylesheet"> <!-- esta etiqueta nos sirve para enlasar con nuestra hoja o hojas de estilo--> 
+
+
+
+
+
+</head>
+
+<div class="tituloarri"> 
+<br>
+<a href="indexpri.html">
+
+<div class="teca" > 
+
+</div>
+
+</a>
+
+
+<h1 class="titulo" style="text-align:center;">
+
+</div>
+
+<br>
+
+<div class="nav-bg"> 
+
+</div>
+
+<body onload="actualizaReloj()">
+	<a href="fechayhora.html" style="text-decoration:none; color:blue;" id="Fecha_Reloj"></a>
+	<!--   Tarjetas-->
+    <div class="title-cards">
+		<h2>| Catalogo de Software |</h2>
+	</div>
+
+<div class="title-cards">
+		<h2>| Diseño Grafico |</h2>
+	</div>
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/OIP.aWXXA-Ax0djycUAG0d063gHaHO?pid=ImgDet&rs=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="brown" size="6">Adobe Photoshop</font></h3>
+		<p><font face="Arial" color="orange" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#D5A479" size="2">Photoshop tiene un número infinito de opciones y es realmente difícil llegar a conocerlas todas. Las más apreciadas y utilizadas para el usuario doméstico, entre muchas otras, son: los filtros incorporados, modificaciones de brillo y contraste, incorporación de texto, las opciones de distorsión, las formas geométicas, los rellenos y los recortes.</font></p>
+		<p><font face="Arial" color="orange" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#D5A479" size="2">Individuos: $199/mes</font></p>
+		<p align="left"><font face="comic" color="#D5A479" size="2">Empresas: $1,799/mes</font></p>
+		<p align="left"><font face="comic" color="#D5A479" size="2">Estudiantes: $399/mes</font></p>
+		<center><a href="https://www.adobe.com/mx/products/photoshop.html"><font face="Arial" color="blue" size="4">Link</a></font></center>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/R.69285b9669da9e1d35248a213f30d9bc?rik=OUNZzwd2pOTL%2fg&riu=http%3a%2f%2fwww.softwareactivo.com.mx%2fwp-content%2fuploads%2f2020%2f04%2fBOTON-coreldraw.jpg&ehk=sGDLHBZcTAVLbIX3%2f0tYe%2bCPDHNxOzpNWBkjIx7%2b9Rg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="green" size="6">Corel Draw</font></h3>
+		<p><font face="Arial" color="red" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="blue" size="2">CorelDRAW sirve para editar gráficos basados en vectores. Este tipo de gráficos se comportan como imágenes basadas en valores matemáticos para su geometría haciéndolas escalables, es decir, que a diferencia de los gráficos en forma de píxeles, utiliza líneas o curvas para plasmar las figuras graficas.</font></p>
+		<p><font face="Arial" color="red" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="blue" size="2">Anual: $517</font></p>
+		<p align="left"><font face="comic" color="blue" size="2">Año: $6,210</font></p>
+		<p align="left"><font face="comic" color="blue" size="2">Unica: $12,510</font></p>
+		<center><a href="https://www.coreldraw.com/la/?x-vehicle=ppc_brkws&&msclkid=9d699e5ea76b188c3611fcfc4cc0ada6&utm_source=bing&utm_medium=cpc&utm_campaign=Text_CDGS_CDGS_CD_All_ES_BR_BI_Core_Exact&utm_term=coreldraw&utm_content=CD_BR_Core_Core&gclid=9d699e5ea76b188c3611fcfc4cc0ada6&gclsrc=3p.ds"><font face="Arial" color="orange" size="4">Link</a></font></center>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/R.521d4a26a125f21fa058d8b58c2c1d44?rik=tM69uUQmOMx%2bAA&pid=ImgRaw&r=0">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#07E4CD" size="6">Gimp</font></h3>
+		<p><font face="Arial" color="#6BD685" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#932476" size="2">GIMP es un programa de manipulación de imágenes que ha ido evolucionando notablemente a lo largo del tiempo. Ha ido soportando formatos adicionales, sus herramientas son más potentes, y además es capaz de funcionar con extensiones o plugins y scripts.</font></p>
+		<p><font face="Arial" color="#6BD685" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#932476" size="2">Mensual: $99</font></p>
+		<center><a href="https://www.gimp.org/"><font face="Arial" color="red" size="4">Link</a></font></center>
+	</div>
+</div>
+
+
+
+</div>
+
+
+<!--SEGUNDA SECCION DE IMAGENES -->
+
+<div class="title-cards">
+	</div>
+
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+	<img src="https://th.bing.com/th/id/OIP.mbAZniaj2GK6bUc84aNPugHaDa?pid=ImgDet&rs=1"> 
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="yellow" size="6">Irfanview</font></h3>
+		<p><font face="Arial" color="#848722" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="red" size="2">IrfanView es un visor rápido y ligero que compatible con una gran cantidad de formatos de archivo e incluso es recomendado para ver archivos de imagen dañados que otros programas más potentes no logran visualizar.
+        Además de procesar todos los parámetros básicos de una imagen, también permite crear pases de diapositivas y visionar y trabajar con vídeo.</font></p>
+		<p><font face="Arial" color="#848722" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="red" size="2">Mensual: $99</font></p>
+		<center><a href="https://www.irfanview.com/"><font face="Arial" color="green" size="4">Link</a></font></center>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/OIP.UcYTrRI19LBuiCaLzys52QHaHa?pid=ImgDet&rs=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#875522" size="6">Adobe Illustrator</font></h3>
+		<p><font face="Arial" color="#B111D6" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#D04377" size="2">Adobe Illustrator es el software de gráficos vectoriales estándar de la industria para PC con Windows que le permite crear logotipos, iconos, dibujos, tipografías e ilustraciones para impresión, web, video y dispositivos móviles.</font></p>
+		<p><font face="Arial" color="#B111D6" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#D04377" size="2">Mensual: $449</font></p>
+		<center><a href="https://www.adobe.com/mx/products/illustrator/campaign/pricing.html?sdid=KQPQK&mv=search&ef_id=7d76fbf12d521359df5f9953c1bb42e6:G:s&s_kwcid=AL!3085!10!78958813695938!78958691240105&msclkid=7d76fbf12d521359df5f9953c1bb42e6"><font face="Arial" color="yellow" size="4">Link</a></font></center>
+	</div>
+</div>
+
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/OIP.9xiUs4syi4CRnQf-_Rna0AHaHa?pid=ImgDet&rs=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="blue" size="6">XnView</font></h3>
+		<p><font face="Arial" color="green" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="orange" size="2">XnView es personalizable y multilenguaje. XnView puede leer más de 500 formatos de imágenes, algunos archivos de audio y de video, y escribir en 50 formatos de imagen. ​ XnView también soporta perfiles ICC en JPEG, PNG y TIFF. Classic XnView puede leer formatos de imagen de más de 32 bits por pixel, pero el soporte de escritura está limitado a 32 bits.</font></p>
+		<p><font face="Arial" color="green" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="orange" size="2">Mensual: $50</font></p>
+		<center><a href="https://www.xnview.com/en/"><font face="Arial" color="red" size="4">Link</a></font></center>
+	</div>
+</div>
+
+
+
+</div>
+<!--Fin   Tarjetas-->
+
+
+
+<!--TERCERA SECCION DE IMAGENES -->
+
+
+
+	<!--   Tarjetas-->
+
+
+<div class="title-cards">
+		<h2>| Programacion |</h2>
+	</div>
+
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+	<img src="https://th.bing.com/th/id/R.7ff529ba4b58d3dda166606e056cdf29?rik=IoHthT2ERWHing&riu=http%3a%2f%2futpdesarrollopanama.files.wordpress.com%2f2011%2f04%2fnetbeans_logo_ok-300x150.jpg&ehk=PL3HACsa%2bQJqjY06TrMMHLr%2fANNXWNgwv4QiIiUMRDA%3d&risl=&pid=ImgRaw&r=0">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#A68EE7" size="6">NetBeans</font></h3>
+		<p><font face="Arial" color="#BEE78E" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#58D19A" size="2">Es un framework que simplifica el desarrollo de aplicaciones para Java Swing. El paquete de NetBeans IDE para Java SE contiene lo que se necesita para empezar a desarrollar plugins y aplicaciones basadas en la plataforma NetBeans; no se requiere un SDK adicional.Las aplicaciones pueden instalar módulos dinámicamente. </font></p>
+		<p><font face="Arial" color="#BEE78E" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#58D19A" size="2">Mensual: $50</font></p>
+		<center><a href="https://netbeans.apache.org/"><font face="Arial" color="blue" size="4">Link</a></font></center>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/OIP.6Ky_PBloIUEMN3KzyeQTUAHaF3?pid=ImgDet&w=860&h=681&rs=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#D6AD58" size="6">Visual Studio Code</font></h3>
+		<p><font face="Arial" color="#00BBFF" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#1F7706" size="2">El código combina la interfaz de usuario optimizada de un editor moderno con asistencia y navegación de código enriquecido y una experiencia de depuración integrada, sin la necesidad de un IDE completo.Visual Studio Code, cuenta con herramientas de Debug hasta opciones para actualización en tiempo real de nuestro código en la vista del navegador. </font></p>
+		<p><font face="Arial" color="#00BBFF" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#1F7706" size="2">Mensual: $50</font></p>
+		<center><a href="https://code.visualstudio.com/"><font face="Arial" color="pinck" size="4">Link</a></font></center>
+	</div>
+</div>
+
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/OIP.zjrAbQ6bXnDBr-lH0747LQHaFU?pid=ImgDet&rs=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#783E33" size="6">Notepad++</font></h3>
+		<p><font face="Arial" color="#837C7A" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#EEF2A2" size="2">Basado en un potente componente de edición llamado Scintilla, Notepad++ está escrito en C++ y usa directamente la API de Win32y STL, lo que asegura una gran velocidad de ejecución y un menor tamaño del programa. Mediante la optimización de tantas rutinas como sea posible sin perder la interfaz amigable. </font></p>
+		<p><font face="Arial" color="#837C7A" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#EEF2A2" size="2">Mensual: $50</font></p>
+		<center><a href="https://notepad-plus-plus.org/"><font face="Arial" color="pink" size="4">Link</a></font></center>
+	</div>
+</div>
+
+
+
+</div>
+<!--Fin   Tarjetas-->
+
+
+<!--CUARTA SECCION DE IMAGENES -->
+
+<div class="title-cards">
+	</div>
+
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+	<img src="https://th.bing.com/th/id/R.951a248804234e5b40abd64cb8a297c7?rik=Z2sWZqbHLQ3QgA&riu=http%3a%2f%2flogonoid.com%2fimages%2feclipse-logo.png&ehk=KDT%2bZMbvJ4Sr84M%2ffGmMO5E%2bUrprvL99mmVOaTXY8U8%3d&risl=&pid=ImgRaw&r=0">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="brown" size="6">Eclipse</font></h3>
+		<p><font face="Arial" color="orange" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#D5A479" size="2">Eclipse dispone de un Editor de texto con un analizador sintáctico. La compilación es en tiempo real. Tiene pruebas unitarias con JUnit, control de versiones con CVS, integración con Ant, asistentes (wizards) para creación de proyectos, clases, tests, etc., y refactorización.Asimismo, a través de "plugins" libremente disponibles es posible añadir control de versiones con Subversion. ​ e integración con Hibernate. ​</font></p>
+		<p><font face="Arial" color="orange" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#D5A479" size="2">Individuos: $199/mes</font></p>
+		<p align="left"><font face="comic" color="#D5A479" size="2">Empresas: $1,799/mes</font></p>
+		<p align="left"><font face="comic" color="#D5A479" size="2">Estudiantes: $399/mes</font></p>
+		<center><a href="https://www.eclipse.org/downloads/"><font face="Arial" color="#6BD685" size="4">Link</a></font></center>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/R.fdfd7abd538ed679460a4ae9bac6f855?rik=8esGfe%2fVNW9vJA&pid=ImgRaw&r=0&sres=1&sresct=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="green" size="6">Lazarus</font></h3>
+		<p><font face="Arial" color="red" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="blue" size="2">Lazarus es una herramienta de desarrollo rápido de aplicaciones (RAD) basada en el lenguaje de programación Object Pascal, disponible para los sistemas operativos Windows, GNU/Linux y Mac OS X. Se trata de una alternativa libre y gratuita a Delphi, desarrollada como proyecto de software libre a partir de Free Pascal.</font></p>
+		<p><font face="Arial" color="red" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="blue" size="2">Anual: $517</font></p>
+		<p align="left"><font face="comic" color="blue" size="2">Año: $6,210</font></p>
+		<p align="left"><font face="comic" color="blue" size="2">Unica: $12,510</font></p>
+		<center><a href="https://www.lazarus-ide.org/"><font face="Arial" color="orange" size="4">Link</a></font></center>
+	</div>
+</div>
+
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/R.da1f7694fbdfe4db5400e11b0ebb6bb1?rik=RshVPpFaw%2bsDRg&riu=http%3a%2f%2fwww.staffcreativa.pe%2fblog%2fwp-content%2fuploads%2fxcode-logo.png&ehk=Kk7UFbcexEhtkL%2b3W3fzG5l9%2fdgjhzU%2fGUhiNZLv9X8%3d&risl=&pid=ImgRaw&r=0">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#07E4CD" size="6">Xcode</font></h3>
+		<p><font face="Arial" color="#6BD685" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#932476" size="2">Xcode trabaja conjuntamente con Interface Builder, una herencia de NeXT, una herramienta gráfica para la creación de interfaces de usuario.
+        Xcode incluye la colección de compiladores del proyecto GNU (GCC), y puede compilar código C, C++, Swift, Objective-C, Objective-C++, Java y AppleScript mediante una amplia gama de modelos de programación, incluyendo, pero no limitado a Cocoa, Carbón y Java.</font></p>
+		<p><font face="Arial" color="#6BD685" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#932476" size="2">Mensual: $99</font></p>
+		<center><a href="https://developer.apple.com/xcode/"><font face="Arial" color="red" size="4">Link</a></font></center>
+	</div>
+</div>
+
+
+
+</div>
+<!--Fin   Tarjetas-->
+<div class="title-cards">
+	<h2>| Desarrollo |</h2>
+	</div>
+
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+	<img src="https://t1.uc.ltmcdn.com/images/2/2/8/img_como_instalar_mysql_en_windows_23822_orig.jpg"> 
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="yellow" size="6">MySQL</font></h3>
+		<p><font face="Arial" color="#848722" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="red" size="2">MySQL es un sistema interactivo que tiene como finalidad actuar como gestor de bases de datos, utilizando el lenguaje SQL para trabajar. A través de él se pueden administrar los datos, incluyendo la introducción, acceso y procesamiento de los mismos.</font></p>
+		<p><font face="Arial" color="#848722" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="red" size="2">Mensual: $99</font></p>
+		<center><a href="https://www.mysql.com/"><font face="Arial" color="green" size="4">Link</a></font></center>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/R.91e5dd5349e26a0a3fa74d3943c2699c?rik=nlXAGFDqul4FwA&pid=ImgRaw&r=0&sres=1&sresct=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="#875522" size="6">PHP</font></h3>
+		<p><font face="Arial" color="#B111D6" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="#D04377" size="2">El PHP se define como un lenguaje de programación cuyo uso es general de script por el lado del servidor, diseñado originalmente para realizar contenido web dinámico. </font></p>
+		<p><font face="Arial" color="#B111D6" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="#D04377" size="2">Mensual: $449</font></p>
+		<center><a href="https://www.php.net/"><font face="Arial" color="yellow" size="4">Link</a></font></center>
+	</div>
+</div>
+
+<div class="card">
+	<figure>
+		<img src="https://th.bing.com/th/id/OIP.tKRpLElMmGvi8z7DKJnBpwHaF1?pid=ImgDet&rs=1">
+	</figure>
+	<div class="contenido-card">
+		<h3><font face="times" color="blue" size="6">Java</font></h3>
+		<p><font face="Arial" color="green" size="5">Caracteristicas</font></p>
+		<p align="justify"><font face="comic" color="orange" size="2">Java incorpora funcionalidades inexistentesen C++ como por ejemplo, la resolución dinámica de métodos.Esta característica deriva del lenguaje ObjectiveC. En C++ se sueletrabajar con librerías dinámicas (DLLs) que obligan a recompilarla aplicación cuando se retocan las funciones que se encuentranen su interior.  </font></p>
+		<p><font face="Arial" color="green" size="5">Precio</font></p>
+		<p align="left"><font face="comic" color="orange" size="2">Mensual: $50</font></p>
+		<center><a href="https://www.java.com/es/"><font face="Arial" color="red" size="4">Link</a></font></center>
+	</div>
+</div>
+
+
+
+</div>
+<!--Fin   Tarjetas-->
+
+
+
+
+
+
+
+
+</body>
+</html>
